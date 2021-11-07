@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  margin-top: 200px;
+}
+
+.App-header {
+  background-color: #282c34;
+  color: aquamarine;
+}
+
+span {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.w3-btn {
+  margin-left: 15px;
+}
+
+.w3-btn,
+.w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+html,
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  background-color: #282c34;
+}

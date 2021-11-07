@@ -1,0 +1,29 @@
+.card {
+  height: 280px;
+  max-width: 190px;
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px;
+  background-color: aliceblue;
+  color: rgb(79, 141, 143);
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.picture {
+  height: 130px;
+  width: 130px;
+  object-fit: cover;
+}
+.status {
+  font-size: 10px;
+  text-align: center;
+  color: rgb(79, 141, 143);
+}
+
+@media (min-width: 400px) {
+  .card {
+    width: 160px;
+    margin-left: 15px;
+  }
+}
