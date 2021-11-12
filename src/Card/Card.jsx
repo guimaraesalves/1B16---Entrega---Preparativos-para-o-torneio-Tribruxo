@@ -7,7 +7,7 @@ function Card({ student }) {
       <div className="card">
         <div className="card-title">{student.name}</div>
         <img className="card-body" src={student.image} alt={student.name}></img>
-        <label className="status">{student.actor}</label>
+        <label className="status">Casa: {student.house}</label>
       </div>
     </div>
   );
